@@ -5,6 +5,7 @@ int main(){
 	char s[100];
 	int k;
 	scanf("%s", s);
+	fflush(stdin);
 	scanf("%d", &k);
 	// Process and Print Output
 	printf("%c", s[k - 1]);
